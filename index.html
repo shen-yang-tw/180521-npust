@@ -26,16 +26,16 @@
   <link rel="stylesheet" href="css/style.css">
 </head>
 
-<body id="top" class="bg_lightGrey">
+<body id="top" class="bg_lightGrey index">
   <div class="gotoTop uk-visible-small" data-uk-sticky="{top:-250, animation: 'uk-animation-slide-top'}"><a href="#top" title="Go to top"><i class="fas fa-chevron-up fa-fw"></i></a></div>
   <header id="header" data-uk-sticky="{top:-50, animation: 'uk-animation-slide-bottom'}">
-    <div class="uk-position-relative uk-position-z-index">
+    <div class="uk-position-relative">
       <div class="bg_img uk-overlay-panel">
         <div class="uk-cover-background" style="height: 180px; background-image: url(img/header.png);">
           <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
         </div>
       </div>
-      <div class="uk-position-relative uk-position-z-index">
+      <div class="uk-position-relative">
         <div class="bg_primary opacity90 uk-overlay-panel uk-padding-remove"></div>
         <nav class="uk-container uk-container-center uk-position-relative uk-position-z-index">
           <ul class="topList list_horizontal list_line color_white uk-text-center">
@@ -49,17 +49,17 @@
       </div>
       <div class="box_shadow3 uk-position-relative uk-padding-remove">
         <div class="bg_secondary opacity90 uk-overlay-panel"></div>
-        <div class="uk-container uk-container-center">
+        <div class="uk-container uk-container-center uk-width-xlarge-3-4">
           <div id="logoMenuBar" class="marginTB_medium uk-position-relative uk-position-z-index uk-grid uk-grid-small" data-uk-grid-margin>
-            <div class="uk-width-3-5 uk-width-medium-2-5 uk-width-large-3-10 uk-padding-remove uk-vertical-align">
-              <div class="uk-vertical-align-middle"><a class="logo uk-margin-small-right" href="index.html"><img class="uk-width-1-1" alt="logo" title="logo" src="img/logo_system.png"></a></div>
+            <div class="uk-width-4-5 uk-width-large-3-5 uk-padding-remove uk-vertical-align">
+              <div class="uk-width-1-1 uk-vertical-align-middle"><a class="logo paddingR_small uk-width-1-1 uk-margin-small-right" href="index.html"><img alt="logo" title="logo" src="img/logo_library_w.png"></a></div>
             </div>
-            <div id="btn_canvas" class="uk-width-2-5 uk-width-medium-3-5 uk-vertical-align uk-text-right uk-hidden-large">
+            <div id="btn_canvas" class="uk-width-1-5 uk-vertical-align uk-text-right uk-hidden-large">
               <div class="uk-vertical-align-middle"><a href="#" aria-label="menu" aria-labelledby="#offcanvas" data-uk-offcanvas="{target:'#offcanvas', mode:'slide'}"><i class="uk-icon-bars uk-icon-medium color_white"></i></a></div>
             </div>
-            <div class="uk-width-1-1 uk-width-large-7-10 uk-padding-remove uk-vertical-align">
+            <div class="uk-width-1-1 uk-width-large-2-5 uk-padding-remove uk-vertical-align">
               <div class="uk-width-1-1 uk-vertical-align-middle">
-                <h4 class="text_center_lL uk-text-contrast uk-margin-remove"><span class="bg_white color_primary padding_small">電子資源管理系統<span class="headerSpan uk-margin-small-left">Research Eyes</span></span></h4>
+                <h4 class="text_center_lR uk-text-contrast uk-margin-remove"><span class="bg_white color_secondary padding_small">電子資源管理系統<span class="headerSpan uk-margin-small-left">Research Eyes</span></span></h4>
               </div>
             </div>
           </div>
@@ -91,10 +91,10 @@
               <a class="fontSize1_2 padding_small paddingLR_medium uk-display-inline-block" href="#" title="#">資料庫</a>
               <div class="bg_transparent border_remove borderRadius0 uk-dropdown uk-dropdown-bottom uk-padding-remove">
                 <div class="padding_large uk-position-relative">
-                  <div class="bg_primary opacity80 uk-overlay-panel"></div>
-                  <ul class="uk-nav uk-nav-dropdown uk-text-contrast uk-text-left uk-position-relative">
-                    <li><a class="hover_bg_secondary uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
-                    <li><a class="hover_bg_secondary uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
+                  <div class="bg_secondary uk-overlay-panel"></div>
+                  <ul class="uk-nav uk-nav-dropdown uk-text-contrast uk-text-left uk-position-relative uk-position-z-index">
+                    <li><a class="hover_bg_primary uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
+                    <li><a class="hover_bg_primary uk-dropdown-close" href="#" title="#"><i class="fas fa-angle-right fa-fw uk-margin-small-right"></i>Item</a></li>
                   </ul>
                 </div>
               </div>
@@ -123,79 +123,82 @@
   </header>
   <!-- header -->
   <div class="banner box_shadow3">
-    <div class="uk-cover-background uk-position-relative" style="height: 300px; background-image: url(img/banner.jpg);">
+    <div class="uk-cover-background uk-position-relative" style="height: 200px; background-image: url(img/banner.jpg);">
       <img class="uk-invisible" src="img/blank.gif" alt="#" title="#">
-      <div class="padding_medium uk-position-cover uk-flex uk-flex-center uk-flex-middle">
-        <div class="searchBar padding_large uk-width-large-1-2 uk-container uk-container-center uk-position-relative">
-          <div class="bg_white opacity90 uk-border-rounded uk-overlay-panel"></div>
-          <form class="uk-form uk-position-relative">
-            <div class="tabBar_switcher">
-              <ul class="uk-subnav uk-subnav-pill" data-uk-switcher="{connect:'#switcher'}">
-                <li>
-                  <a href="#">進階查詢</a>
-                </li>
-                <li>
-                  <a href="#">資源探索</a>
-                </li>
-                <li>
-                  <a href="#">Pubmed</a>
-                </li>
-              </ul>
-              <div class="uk-margin">
-                <ul id="switcher" class="uk-switcher uk-margin">
+      <div id="searchBar">
+      <!-- <div id="searchBar" data-uk-sticky="{top:-50, animation: 'uk-animation-slide-bottom'}"> -->
+        <div class="padding_medium uk-position-cover uk-flex uk-flex-center uk-flex-middle">
+          <div class="searchBar box_shadow3 padding_large uk-width-large-1-2 uk-container uk-container-center uk-position-relative">
+            <div class="bg_white opacity90 uk-border-rounded uk-overlay-panel"></div>
+            <form class="uk-form uk-position-relative">
+              <div class="tabBar_switcher">
+                <ul class="uk-subnav uk-subnav-pill" data-uk-switcher="{connect:'#switcher'}">
                   <li>
-                    <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
-                      <div class="uk-width-3-10 uk-width-small-3-10">
-                        <select class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search">
-                          <option>全部</option>
-                        </select>
-                      </div>
-                      <div class="uk-width-4-10 uk-width-small-5-10">
-                        <input id="search" class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
-                      </div>
-                      <div class="uk-width-3-10 uk-width-small-2-10">
-                        <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
-                      </div>
-                    </div>
-                    <p class="uk-form-help-block">熱門：<span class="commaCH"><a class="linkline" href="#" title="#">science</a></span><span class="commaCH"><a class="linkline" href="#" title="#">華藝</a></span><span class="commaCH"><a class="linkline" href="#" title="#">nature</a></span></p>
+                    <a href="#">進階查詢</a>
                   </li>
                   <li>
-                    <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
-                      <div class="uk-width-3-10 uk-width-small-3-10">
-                        <select class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search">
-                          <option>全部</option>
-                        </select>
-                      </div>
-                      <div class="uk-width-4-10 uk-width-small-5-10">
-                        <input id="search" class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
-                      </div>
-                      <div class="uk-width-3-10 uk-width-small-2-10">
-                        <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
-                      </div>
-                    </div>
-                    <p class="uk-form-help-block">熱門：<span class="commaCH"><a class="linkline" href="#" title="#">生物</a></span><span class="commaCH"><a class="linkline" href="#" title="#">月旦</a></span><span class="commaCH"><a class="linkline" href="#" title="#">中國</a></span></p>
+                    <a href="#">資源探索</a>
                   </li>
                   <li>
-                    <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
-                      <div class="uk-width-3-10 uk-width-small-3-10">
-                        <select class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search">
-                          <option>全部</option>
-                        </select>
-                      </div>
-                      <div class="uk-width-4-10 uk-width-small-5-10">
-                        <input id="search" class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
-                      </div>
-                      <div class="uk-width-3-10 uk-width-small-2-10">
-                        <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
-                      </div>
-                    </div>
-                    <p class="uk-form-help-block">熱門：<span class="commaCH"><a class="linkline" href="#" title="#">CNKI</a></span><span class="commaCH"><a class="linkline" href="#" title="#">Democracy</a></span><span class="commaCH"><a class="linkline" href="#" title="#">Web of science</a></span></p>
+                    <a href="#">Pubmed</a>
                   </li>
                 </ul>
+                <div class="uk-margin">
+                  <ul id="switcher" class="uk-switcher uk-margin">
+                    <li>
+                      <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
+                        <div class="uk-width-3-10 uk-width-small-3-10">
+                          <select class="bg_whiteOpacity9 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search">
+                            <option>全部</option>
+                          </select>
+                        </div>
+                        <div class="uk-width-4-10 uk-width-small-5-10">
+                          <input id="search" class="bg_whiteOpacity9 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
+                        </div>
+                        <div class="uk-width-3-10 uk-width-small-2-10">
+                          <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
+                        </div>
+                      </div>
+                      <p class="uk-form-help-block">熱門：<span class="commaCH"><a class="linkline" href="#" title="#">science</a></span><span class="commaCH"><a class="linkline" href="#" title="#">華藝</a></span><span class="commaCH"><a class="linkline" href="#" title="#">nature</a></span></p>
+                    </li>
+                    <li>
+                      <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
+                        <div class="uk-width-3-10 uk-width-small-3-10">
+                          <select class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search">
+                            <option>全部</option>
+                          </select>
+                        </div>
+                        <div class="uk-width-4-10 uk-width-small-5-10">
+                          <input id="search" class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
+                        </div>
+                        <div class="uk-width-3-10 uk-width-small-2-10">
+                          <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
+                        </div>
+                      </div>
+                      <p class="uk-form-help-block">熱門：<span class="commaCH"><a class="linkline" href="#" title="#">生物</a></span><span class="commaCH"><a class="linkline" href="#" title="#">月旦</a></span><span class="commaCH"><a class="linkline" href="#" title="#">中國</a></span></p>
+                    </li>
+                    <li>
+                      <div class="searchBarGroup3 uk-grid uk-grid-collapse" data-uk-grid-margin>
+                        <div class="uk-width-3-10 uk-width-small-3-10">
+                          <select class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" aria-labelledby="search">
+                            <option>全部</option>
+                          </select>
+                        </div>
+                        <div class="uk-width-4-10 uk-width-small-5-10">
+                          <input id="search" class="bg_whiteOpacity7 border_black_opacity1 uk-form-large uk-width-1-1" type="text" placeholder="請輸入內容">
+                        </div>
+                        <div class="uk-width-3-10 uk-width-small-2-10">
+                          <a href="#" class="btn_primary uk-button uk-button-large uk-width-1-1" title="Search" aria-label="submnit" aria-labelledby="search"><i class="fas fa-search uk-margin-small-right"></i>搜尋</a>
+                        </div>
+                      </div>
+                      <p class="uk-form-help-block">熱門：<span class="commaCH"><a class="linkline" href="#" title="#">CNKI</a></span><span class="commaCH"><a class="linkline" href="#" title="#">Democracy</a></span><span class="commaCH"><a class="linkline" href="#" title="#">Web of science</a></span></p>
+                    </li>
+                  </ul>
+                </div>
               </div>
-            </div>
-            <!-- .tabBar_switcher -->
-          </form>
+              <!-- .tabBar_switcher -->
+            </form>
+          </div>
         </div>
       </div>
     </div>
@@ -204,14 +207,13 @@
     <div class="paddingT_xlarge paddingB_xlarge uk-container uk-container-center">
       <div class="uk-grid uk-grid-small uk-grid-match" data-uk-grid-match="{target:'.matchHeight'}" data-uk-grid-margin>
         <div class="uk-width-medium-1-2">
-          <div id="news" class="matchHeight max_height card_bgTop bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove" style="max-height: 402px">
-            <div class="bg_img_top uk-overlay-panel" style="background-image: url(img/bg_news.jpg);"></div>
+          <div id="news" class="matchHeight max_height bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove" style="max-height: 402px">
             <div class="padding_medium uk-position-relative">
-              <div class="bg_primary opacity80 uk-overlay-panel"></div>
+              <div class="bg_secondary uk-overlay-panel"></div>
               <h5 class="uk-text-contrast uk-margin-remove uk-position-relative"><i class="fas fa-paper-plane fa-fw"></i>最新消息</h5>
               <!-- <h5 class="uk-text-contrast uk-margin-remove uk-position-relative"><i class="fas fa-paper-plane fa-fw"></i>最新消息<span class="more color_white uk-margin-remove uk-align-right"><a class="uk-margin-small-right" href="#" title="more" aria-label="link">more</a><i class="fas fa-angle-right" data-fa-transform="down-2"></i></span></h5> -->
             </div>
-            <ul class="marginT_medium uk-list uk-list-striped uk-position-relative">
+            <ul class="uk-list uk-list-striped uk-position-relative">
               <li>
                 <a class="listFaIcon_indent uk-display-block" href="#" title="#"><i class="fas fa-angle-right fa-fw"></i><span class="paddingLR_small uk-margin-large-left uk-margin-bottom-remove uk-align-right">2018/3/31</span>【活動延長再加碼！】跟著青蛙去旅行~參加【2018WOS &amp; JCR】資料庫推廣有獎徵答活動~</a>
               </li>
@@ -230,7 +232,6 @@
         </div>
         <div class="uk-width-medium-1-2">
           <div class="matchHeight card bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove" style="max-height: 402px">
-            <div class="bg_img_top opacity20 uk-overlay-panel" style="background-image: url(img/bg_news.png);"></div>
             <div class="padding_medium uk-position-relative">
               <div class="bg_primary uk-overlay-panel"></div>
               <h5 class="uk-text-contrast uk-margin-remove uk-position-relative"><i class="fas fa-image fa-fw"></i>圖書館活動</h5>
@@ -280,31 +281,62 @@
           <!-- .card -->
         </div>
         <div class="uk-width-large-1-2 uk-width-xlarge-1-3">
-          <div class="card_bgTop bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove">
-            <div class="bg_img_top uk-overlay-panel" style="background-image: url(img/bg_feature.jpg);"></div>
+          <div class="bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove">
             <div class="padding_medium uk-position-relative">
-              <div class="bg_primary opacity80 uk-overlay-panel"></div>
+              <div class="bg_secondary uk-overlay-panel"></div>
               <h5 class="uk-text-contrast uk-margin-remove uk-position-relative"><i class="fas fa-star fa-fw"></i>精選資源</h5>
             </div>
-            <ul class="truncating_striped marginT_medium uk-list uk-list-striped uk-position-relative">
+            <ul class="truncating_striped uk-list uk-list-striped uk-position-relative">
               <li>
-                <a class="listFaIcon_indent uk-display-block" href="#" title="#"><i class="fas fa-angle-right fa-fw"></i><h6 class="indent_remove truncating truncating2 uk-text-bold uk-margin-bottom-remove">Science Citation Index Expanded--SCIE (Web of Science)</h6><p class="indent_remove truncating truncating4 uk-margin-top-remove uk-display-inline-block">為美國Thomson Reuters 於 1997 年間建置之引用文獻索引資料庫系統。收錄科學技術類期刊計 8,280 餘種(較光碟版約多2,000 餘種)，涵蓋主題約150 餘種。<span class="paddingLR_small marginB_small uk-position-bottom-right uk-position-z-index uk-text-small uk-margin-large-left uk-margin-bottom-remove">more<i class="fas fa-angle-right fa-fw" data-fa-transform="shrink-4 down-3"></i></span></p></a>
+                <a class="listFaIcon_indent uk-display-block" href="#more1" title="#" data-uk-offcanvas="{mode:'slide'}"><i class="fas fa-angle-right fa-fw"></i><h6 class="indent_remove truncating truncating2 uk-text-bold uk-margin-bottom-remove">Science Citation Index Expanded--SCIE (Web of Science)</h6><p class="indent_remove truncating truncating4 uk-margin-top-remove uk-display-inline-block">為美國Thomson Reuters 於 1997 年間建置之引用文獻索引資料庫系統。收錄科學技術類期刊計 8,280 餘種(較光碟版約多2,000 餘種)，涵蓋主題約150 餘種。<span class="paddingLR_small marginB_small uk-position-bottom-right uk-position-z-index uk-text-small uk-margin-large-left uk-margin-bottom-remove">more<i class="fas fa-angle-right fa-fw" data-fa-transform="shrink-4 down-3"></i></span></p></a>
+                <div id="more1" class="uk-offcanvas">
+                  <div class="bg_transparent padding_medium uk-offcanvas-bar uk-offcanvas-bar-flip">
+                    <div class="bg_primary opacity90 uk-overlay-panel"></div>
+                    <div class="uk-position-relative">
+                      <h4 class="color_white underline uk-text-bold"><a href="#" title="#">Science Citation Index Expanded--SCIE (Web of Science)<i class="fas fa-chevron-circle-right fa-fw uk-align-right" data-fa-transform="shrink-3 down-3"></i></a></h4>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">相關題名</span>Web of Science (SCIE) WOS-SCIE Web of Science</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">資料類型</span>資料庫</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">平　　台</span><a class="linkline uk-text-bold" href="#" title="#">碩睿 (1899-)</a></p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">簡　　介</span>為美國Thomson Reuters 於 1997 年間建置之引用文獻索引資料庫系統。收錄科學技術類期刊計 8,280 餘種(較光碟版約多2,000 餘種)，涵蓋主題約150 餘種。</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">狀　　態</span>訂購</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">語　　言</span>西文</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">類　　型</span><a class="linkline uk-text-bold" href="#" title="#">索引摘要</a></p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">主　　題</span><a class="linkline uk-text-bold" href="#" title="#">科學工</a></p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">校外連線</span>可校外連線</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">使用手冊</span>快速參考指南</p>
+                    </div>
+                  </div>
+                </div>
               </li>
               <li>
-                <a class="listFaIcon_indent uk-display-block" href="#" title="#"><i class="fas fa-angle-right fa-fw"></i><h6 class="indent_remove truncating truncating2 uk-text-bold uk-margin-bottom-remove">WebCSD (劍橋晶體結構資料庫)</h6><p class="indent_remove truncating truncating4 uk-margin-top-remove uk-display-inline-block">劍橋晶體結構資料庫網路版，國家高速網路與計算中心提供使用，可由Web介面查尋超過50萬種以上小分子晶體結構。內容包含：公佈的數據有機晶體、有機金屬和金屬結構的複雜三維結構等。<span class="paddingLR_small marginB_small uk-position-bottom-right uk-position-z-index uk-text-small uk-margin-large-left uk-margin-bottom-remove">more<i class="fas fa-angle-right fa-fw" data-fa-transform="shrink-4 down-3"></i></span></p></a>
+                <a class="listFaIcon_indent uk-display-block" href="#more2" title="#" data-uk-offcanvas="{mode:'slide'}"><i class="fas fa-angle-right fa-fw"></i><h6 class="indent_remove truncating truncating2 uk-text-bold uk-margin-bottom-remove">WebCSD (劍橋晶體結構資料庫)</h6><p class="indent_remove truncating truncating4 uk-margin-top-remove uk-display-inline-block">劍橋晶體結構資料庫網路版，國家高速網路與計算中心提供使用，可由Web介面查尋超過50萬種以上小分子晶體結構。內容包含：公佈的數據有機晶體、有機金屬和金屬結構的複雜三維結構等。<span class="paddingLR_small marginB_small uk-position-bottom-right uk-position-z-index uk-text-small uk-margin-large-left uk-margin-bottom-remove">more<i class="fas fa-angle-right fa-fw" data-fa-transform="shrink-4 down-3"></i></span></p></a>
+                <div id="more2" class="uk-offcanvas">
+                  <div class="bg_transparent padding_medium uk-offcanvas-bar uk-offcanvas-bar-flip">
+                    <div class="bg_primary opacity90 uk-overlay-panel"></div>
+                    <div class="uk-position-relative">
+                      <h4 class="color_white underline uk-text-bold"><a href="#" title="#">WebCSD (劍橋晶體結構資料庫)<i class="fas fa-chevron-circle-right fa-fw uk-align-right"></i></a></h4>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">相關題名</span>Web of Science (SCIE) WOS-SCIE Web of Science</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">資料類型</span>資料庫</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">平　　台</span><a class="linkline uk-text-bold" href="#" title="#">碩睿 (1899-)</a></p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">簡　　介</span>劍橋晶體結構資料庫網路版，國家高速網路與計算中心提供使用，可由Web介面查尋超過50萬種以上小分子晶體結構。內容包含：公佈的數據有機晶體、有機金屬和金屬結構的複雜三維結構等。</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">狀　　態</span>訂購</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">語　　言</span>西文</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">類　　型</span><a class="linkline uk-text-bold" href="#" title="#">索引摘要</a></p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">主　　題</span><a class="linkline uk-text-bold" href="#" title="#">科學工</a></p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">校外連線</span>可校外連線</p>
+                      <p class="color_white urlFix"><span class="border paddingLR_small uk-margin-small-right">使用手冊</span>快速參考指南</p>
+                    </div>
+                  </div>
+                </div>
               </li>
-              <!-- <li>
-                <a class="listFaIcon_indent uk-display-block" href="#" title="#"><i class="fas fa-angle-right fa-fw"></i><h6 class="indent_remove truncating truncating2 uk-text-bold uk-margin-bottom-remove">申報 (愛如生版)</h6><p class="indent_remove truncating truncating4 uk-margin-top-remove uk-display-inline-block">《申報》是十九世紀晚期至二十世紀中期遠東地區最具影響力的中文日報。愛如生－近代報刊庫全文檢索版《申報》數據庫是《申報》數字化的全新成果，由北京愛如生數字化技術研究中心研發製作。<span class="paddingLR_small marginB_small uk-position-bottom-right uk-position-z-index uk-text-small uk-margin-large-left uk-margin-bottom-remove">more<i class="fas fa-angle-right fa-fw" data-fa-transform="shrink-4 down-3"></i></span></p></a>
-              </li> -->
             </ul>
           </div>
           <!-- .card -->
         </div>
         <div class="uk-width-large-1-2 uk-width-xlarge-1-3">
-          <div class="card_bgTop bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove">
-            <div class="bg_img_top uk-overlay-panel" style="background-image: url(img/bg_try.jpg);"></div>
+          <div class="bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove">
             <div class="padding_medium uk-position-relative">
-              <div class="bg_primary opacity80 uk-overlay-panel"></div>
+              <div class="bg_primary uk-overlay-panel"></div>
               <h5 class="uk-text-contrast uk-margin-remove uk-position-relative"><i class="fas fa-clipboard-check fa-fw"></i>試用資源</h5>
             </div>
             <ul class="uk-list uk-list-striped uk-position-relative">
@@ -331,10 +363,9 @@
           <!-- .card -->
         </div>
         <div class="uk-width-large-1-2 uk-width-xlarge-1-3">
-          <div class="card_bgTop bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove">
-            <div class="bg_img_top uk-overlay-panel" style="background-image: url(img/bg_hot.jpg);"></div>
+          <div class="bg_white border_black_opacity1 box_shadow1 uk-panel uk-panel-box uk-overflow-hidden uk-padding-remove">
             <div class="padding_medium uk-position-relative">
-              <div class="bg_primary opacity80 uk-overlay-panel"></div>
+              <div class="bg_secondary uk-overlay-panel"></div>
               <h5 class="uk-text-contrast uk-margin-remove uk-position-relative"><i class="fas fa-heart fa-fw"></i>熱門資源</h5>
             </div>
             <ul class="uk-list uk-list-striped uk-position-relative">
@@ -366,25 +397,14 @@
     <!-- .uk-container -->
   </div>
   <!-- .bg_img -->
-  <footer class="bg_darkestGrey">
-    <div class="uk-container uk-container-center paddingT_large paddingB_large">
-      <ul class="uk-grid uk-grid-small" data-uk-grid-margin>
-        <li class="text_center_medium_left uk-width-medium-1-5 uk-width-xlarge-1-10"><a class="logo footer_logo uk-width-1-4 uk-width-medium-2-3 uk-width-large-3-5 uk-width-xlarge-9-10" href="http://www.flysheet.com.tw/" title="FlySheet"><img src="img/logo.svg" title="FlySheet"></a></li>
-        <li class="color_white text_center_sL uk-width-medium-4-5 uk-width-xlarge-5-10">
-          <ul class="uk-grid uk-grid-small" data-uk-grid-margin>
-            <li class="uk-width-small-1-2 uk-width-medium-1-3"><i class="fas fa-phone fa-fw uk-margin-small-right"></i>+886 2 2658-1258</li>
-            <li class="uk-width-small-1-2 uk-width-medium-2-3"><i class="fas fa-fax fa-fw uk-margin-small-right"></i>+886 2 2797-8628</li>
-            <li class="uk-width-small-1-2 uk-width-medium-1-3"><i class="fas fa-envelope fa-fw uk-margin-small-right"></i><a href="mailto:info@flysheet.com.tw">info@flysheet.com.tw</a></li>
-            <li class="uk-width-small-1-2 uk-width-medium-2-3"><i class="far fa-building fa-fw uk-margin-small-right"></i>11441臺北市內湖區內湖路一段91巷40號</li>
-          </ul>
-        </li>
-        <li class="color_white uk-text-center uk-container-center uk-width-medium-2-3 uk-width-xlarge-4-10">
-          <ul class="uk-grid uk-grid-small uk-grid-width-1-2" data-uk-grid-margin>
-            <li><a class="btn_primary uk-button uk-width-1-1" href="https://www.facebook.com/flysheetgroup/" target="_blank" title="FlySheet最新消息"><i class="fab fa-facebook-f fa-fw uk-margin-small-right"></i><span>最新消息<span></a></li>
-            <li><a class="btn_primary uk-button uk-width-1-1" href="http://vip.flysheet.com.tw/" target="_blank" title="FlySheet線上客服"><i class="fas fa-comment-alt fa-fw uk-margin-small-right"></i><span>線上客服</span></a></li>
-          </ul>
-          <p class="copyright paddingT_small uk-margin-remove uk-text-contrast uk-text-small">飛資得企業集團版權所有 © <span class="year"></span> FlySheet All Rights Reserved</p>
-        </li>
+  <footer class="uk-position-relative">
+    <div class="bg_darkestGrey opacity90 uk-overlay-panel uk-padding-remove"></div>
+    <div class="uk-container uk-container-center uk-position-relative paddingT_large paddingB_large">
+      <ul class="uk-grid uk-grid-small uk-text-center" data-uk-grid-margin>
+        <li class="uk-width-medium-1-2 uk-width-large-1-3"><i class="fas fa-phone fa-fw uk-margin-small-right"></i>08-7703202轉7273或7277</li>
+        <li class="uk-width-medium-1-2 uk-width-large-1-3"><i class="fas fa-envelope fa-fw uk-margin-small-right"></i><a href="mailto:rongyu@mail.npust.edu.tw" title="rongyu@mail.npust.edu.tw">rongyu@mail.npust.edu.tw</a></li>
+        <li class="uk-width-medium-1-2 uk-width-large-1-3"><i class="far fa-building fa-fw uk-margin-small-right"></i>91201屏東縣內埔鄉老埤村學府路1號</li>
+        <li class="uk-width-medium-1-2 uk-width-large-1-1"><span class="uk-text-small">國立屏東科技大學圖書與會展館版權所有 © <span class="year"></span> All Rights Reserved</span></li>
       </ul>
     </div>
   </footer>
